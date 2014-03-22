@@ -120,7 +120,7 @@ hr {
 header {
 	position: fixed;
 	width: 100%;
-	z-index: 5;
+	z-index: 999;
 	background: #fff;
 	border-bottom: 5px solid #f6f6f6;
 	min-height: 70px;
@@ -1947,11 +1947,12 @@ li.current {
 /* Footer
 ====================================================================== */
 #footer-menu {
-	height: 50px;
+	height: 60px;
 	background: #fcfcfc url(../img/bg-k20.png) repeat;
 	border-top: 4px solid #f6f6f6;
 	border-bottom: 4px solid #f6f6f6;
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #footer-menu-logo  {
