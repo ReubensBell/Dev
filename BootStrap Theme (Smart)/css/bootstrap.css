@@ -232,14 +232,14 @@ body {
 }
 
 a {
-  color: #0088cc;
-  text-decoration: none;
+  color: #666;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #005580;
-  text-decoration: underline;
+	color: #0088cc;
+	text-decoration: none;
 }
 
 .img-rounded {
@@ -318,7 +318,7 @@ a:focus {
 }
 
 .span6 {
-  width: 460px;
+	width: 460px;
 }
 
 .span5 {
@@ -330,7 +330,13 @@ a:focus {
 }
 
 .span3 {
-  width: 220px;
+	width: 220px;
+}
+
+.span3shows {
+	width: 220;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .span2 {
@@ -471,6 +477,11 @@ a:focus {
 }
 
 .row-fluid .span3 {
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
+}
+
+.row-fluid .span3shows {
   width: 23.404255319148934%;
   *width: 23.351063829787233%;
 }
@@ -1401,6 +1412,12 @@ textarea.span3,
   width: 206px;
 }
 
+input.span3shows,
+textarea.span3shows,
+.uneditable-input.span3shows {
+  width: 206px;
+}
+
 input.span2,
 textarea.span2,
 .uneditable-input.span2 {
@@ -2174,6 +2191,13 @@ table th[class*="span"],
 
 .table td.span3,
 .table th.span3 {
+  float: none;
+  width: 204px;
+  margin-left: 0;
+}
+
+.table td.span3shows,
+.table th.span3shows {
   float: none;
   width: 204px;
   margin-left: 0;
