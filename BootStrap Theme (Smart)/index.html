@@ -62,31 +62,10 @@
 					<a class="brand" href="index.html"><img src="img/logos/Nav-Logo.png" alt="Reubens Bell" width="50"><img src="img/logos/Nav-Text.png" alt="Reubens Bell" width="200"></a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav">
-                        	<li ><a href="about.html">Show's</a></li>
-							<li ><a href="about.html">Take a Listen</a></li>
-	              			<li ><a href="about.html">Keep Up</a></li>
-                            <li ><a href="about.html">Reuben Who?</a></li>
-							<li class="dropdown">
-	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features<b class="caret"></b></a>
-	                			<ul class="dropdown-menu">
-	                  				<li><a href="social-icons.html">Social Icons</a></li>
-									<li><a href="icons.html">Icons</a></li>
-									<li><a href="sliders.html">Sliders</a></li>
-									<li><a href="typography.html">Typography</a></li>
-									<li><a href="shortcodes.html">Shortcodes</a></li>
-									<li><a href="list-styles.html">List Styles</a></li>
-									<li><a href="charts.html">Charts</a></li>
-									<li><a href="login.html">Login</a></li>
-									<li><a href="register.html">Register</a></li>
-	                			</ul>
-	              			</li>
-							<li class="dropdown">
-	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
-	                			<ul class="dropdown-menu">
-	                  				<li><a href="portfolio3.html">3 Columns</a></li>
-									<li><a href="portfolio4.html">4 Columns</a></li>
-	                			</ul>
-	              			<li ><a href="contact.html">Contact</a></li>
+                        	<li ><a class="scroll" href="#Shows">Show's</a></li>
+							<li ><a class="scroll" href="#Listen">Take a Listen</a></li>
+                            <li ><a class="scroll" href="#bio">Reuben Who?</a></li>
+	              			<li ><a class="scroll" href="#book">Contact</a></li>
 	            		</ul>
 	          		</div>
 	        	</div>
@@ -99,47 +78,31 @@
 	</header>
 	<!--end: Header-->	
     
+
 	<!-- start: Slider -->
 		<div class="slider-wrapper">
 			<div id="da-slider" class="da-slider alt">
 				<div class="da-slide">
-					<h2>Twitter Bootstrap</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<h2>Live at Smiths Olde Bar Upstairs!</h2>
 					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="img/parallax-slider/twitter.png" alt="image01" /></div>
+					<div class="da-img"><img src="img/smiths.jpg" alt="Smith's Olde Bar" /></div>
 				</div>
-				<div class="da-slide">
-					<h2>Our Next Show </h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="img/parallax-slider/responsive.png" alt="image02" /></div>
-				</div>
-				<div class="da-slide">
-					<h2>HTML5</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="img/parallax-slider/html5.png" alt="image03" /></div>
-				</div>
-				<div class="da-slide">
-					<h2>CSS3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="img/parallax-slider/css3.png" alt="image04" /></div>
-				</div>
+			</div>
 				<nav class="da-arrows">
 					<span class="da-arrows-prev"></span>
 					<span class="da-arrows-next"></span>
 				</nav>
-			</div>
-
 		</div>
 		<!-- end: Slider -->
+
 
 		<!--start: Wrapper-->
 		<div id="wrapper">
 
 			<!--start: Container -->
 	    	<div class="container">
+            
+            <section id="Shows"
 
 				<!-- start: Row -->
 				<div class="row">
@@ -201,8 +164,9 @@
 					<div class="clear"></div>
 				</div>
 				<!-- end: Row -->
-
-
+                </section>
+                
+                <section id="Listen">
 				<!-- start: Row -->
 	      		<div class="row">
 
@@ -259,7 +223,9 @@
 
 	      		</div>
 				<!-- end: Row -->
+                </section>
                 
+                <section id="bio">
                 <!-- start: Row -->
                 <div class="row">
                 	<div class="title"><h3>Biography</h3></div>
@@ -283,6 +249,7 @@
                     </div>
                 </div>
 				<!-- end: Row -->
+                </section>
                 
 				<hr>
 
@@ -337,7 +304,7 @@
 		
 		<!-- start: Container -->
 		<div class="container">
-			
+			<section id="book">
 			<!-- start: Row -->
 			<div class="row">
 
@@ -353,7 +320,7 @@
 				<!-- end: About -->
 
 				<!-- start: Photo Stream -->
-				<div class="span3">
+				<div class="span6">
 					
 					<h3>Photo Stream</h3>
 					<div class="flickr-widget">
@@ -363,7 +330,7 @@
 				</div>
 				<!-- end: Photo Stream -->
 
-				<div class="span6">
+				<div class="span3">
 				
 					<!-- start: Follow Us -->
 					<h3>Stalk Us, We Don't Mind.</h3>
@@ -396,7 +363,8 @@
 				</div>
 				
 			</div>
-			<!-- end: Row -->	
+			<!-- end: Row -->
+            </section>	
 			
 		</div>
 		<!-- end: Container  -->

@@ -127,6 +127,8 @@ header {
 	background: #fff;
 	border-bottom: 5px solid #f6f6f6;
 	min-height: 70px;
+	margin-bottom: 5px;
+	display: block;
 }
 
 .navbar {
@@ -2135,12 +2137,12 @@ form#newsletter label {
 
 form#newsletter input[type=text] {
 	background: #fff;
-	width: 50%;
+	width: 70%;
 	float: left;
 	border: 1px solid #f6f6f6;
 	position: relative;
 	z-index: 1;
-	padding: 7px 0px 8px 34px;
+	padding: 7px 0px 8px 10px;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
@@ -2150,13 +2152,14 @@ form#newsletter input[type=text] {
 	-webkit-border-bottom-left-radius: 3px;
 	-moz-border-radius-bottomleft: 3px;
 	border-bottom-left-radius: 3px;
+	overflow-x: visible;
 }
 	
 form#newsletter input[type=submit] {
 	background: #f5bf56;
 	color: #fff;
 	width: 25%;
-	float: left;
+	float: right;
 	border: 1px solid #f6f6f6;
 	position: relative;
 	z-index: 2;
