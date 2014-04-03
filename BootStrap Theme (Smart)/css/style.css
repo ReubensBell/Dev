@@ -98,7 +98,6 @@ hr {
 #wrapper {
 	background: #fff;
 
-
 }
 
 /* #Lists
@@ -2097,7 +2096,7 @@ li.current {
 #footer, 
 #footer p, 
 #footer a{ 
-	color: #fff !important;
+	color: #666 !important;
 }
 
 #footer a:hover {
