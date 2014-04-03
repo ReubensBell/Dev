@@ -1,6 +1,6 @@
 <?php
 
-$admin_email = "j.blairbarney@gmail.com"; // Only Change This Mail
+$admin_email = "reubensbell@gmail.com"; // Only Change This Mail
 
 	
 if ($_POST['new_message']) {
