@@ -1,6 +1,6 @@
 <?php
 
-$admin_email = "lukasz@holeczek.pl"; // Only Change This Mail
+$admin_email = "j.blairbarney@gmail.com"; // Only Change This Mail
 
 	
 if ($_POST['new_message']) {
@@ -16,15 +16,13 @@ if ($_POST['new_message']) {
 		
 	$user_message = $_POST['message'];
 	
-	$www = $_POST['www'];
-	
 	if(valid_email($email)) {
 				
 		$host  = $_SERVER['HTTP_HOST'];
 		$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 							
 		$message = 
-"$name - $email - $www - send you message.\n\n
+"$name - $email - sent you a message.\n\n
 $user_message\n\n
 _____________________________________________
 PLEASE DO NOT REPLY

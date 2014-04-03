@@ -265,7 +265,13 @@ a:focus {
 }
 
 .row {
-  margin-left: -20px;
+	margin-left: -20px;
+  *zoom: 1;
+	padding-top: 25px;
+}
+
+.rowftr {
+	margin-left: -20px;
   *zoom: 1;
 }
 

@@ -113,6 +113,12 @@
     margin-left: -30px;
     *zoom: 1;
   }
+  
+  .rowftr {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+  
   .row:before,
   .row:after {
     display: table;
@@ -475,6 +481,12 @@
     margin-left: -20px;
     *zoom: 1;
   }
+  
+  .rowftr {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  
   .row:before,
   .row:after {
     display: table;
