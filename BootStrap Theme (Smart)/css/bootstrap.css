@@ -217,6 +217,7 @@ textarea {
     widows: 3;
   }
   h2,
+  h2show,
   h3 {
     page-break-after: avoid;
   }
@@ -752,6 +753,7 @@ a.text-success:focus {
 
 h1,
 h2,
+hwshow,
 h3,
 h4,
 h5,
