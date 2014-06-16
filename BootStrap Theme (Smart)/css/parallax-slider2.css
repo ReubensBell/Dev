@@ -851,6 +851,7 @@
 	}
 
 	.da-dots{
+		visibility: hidden;
 		width: 100%;
 		position: absolute;
 		text-align: center;
@@ -904,6 +905,7 @@
 	}
 
 	.da-dots{
+		visibility: hidden;
 		width: 100%;
 		position: absolute;
 		text-align: center;
